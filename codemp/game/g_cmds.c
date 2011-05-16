@@ -1881,9 +1881,10 @@ Cmd_CallVote_f
 extern void SiegeClearSwitchData(void); //g_saga.c
 const char *G_GetArenaInfoByMap( const char *map );
 void Cmd_CallVote_f( gentity_t *ent ) {
-	int		i;
-	char	arg1[MAX_STRING_TOKENS];
-	char	arg2[MAX_STRING_TOKENS];
+	char*    c;
+	int      i;
+	char   arg1[MAX_STRING_TOKENS];
+	char   arg2[75];
 //	int		n = 0;
 //	char*	type = NULL;
 	char*		mapName = 0;

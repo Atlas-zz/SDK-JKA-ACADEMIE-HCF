@@ -1,0 +1,10 @@
+Ok, this version will work with vc7.net, vc6 and will also build on linux (type make in the game dir to create the .so file).
+
+Credits go to the linux patch creator (don't know his/her name, website is: http://divoid.net/) and to Legacy for providing the vc6 dsp/dsw files.  All I did was run the patch, tar it and upload it.  
+
+Note that this is the *vanilla* source (ie, other than the linux fixes, this code contains *NO* alterations, mods, bug fixes, etc).
+
+Regards,
+
+Trimbo
+
